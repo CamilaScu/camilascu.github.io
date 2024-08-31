@@ -22,7 +22,7 @@ h1{
     margin: 30px; /* MARGEN DE SEPARACION AL REDEDOR DEL BOTÓN */
     border: 3px solid rgb(248, 171, 162);  
     position: relative;
-    left: 28%;
+    left: 31%;
     padding: 14px 28px; 
     cursor: pointer; /*CURSOR MANITO*/
     border-radius: 20px;   
@@ -55,4 +55,71 @@ footer{
 .contacto{
     font-family: "Edu AU VIC WA NT Hand", cursive;
     font-size: 15px;
+}
+
+.linea{
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 1366px){
+    .botones button {
+        height: 350px; 
+        width: 250px; 
+        font-size: 30px; 
+        margin: 20px; 
+        left: 20%; 
+      }
+
+      .botones{
+        position: relative;
+        right: 6%;
+        left: 10%;
+      }
+
+    .linea{
+        margin-top: 1%;
+    }
+
+    body{
+        background-image: url(fondo\ 3.png);
+        background-size: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .botones button {
+      height: 350px; 
+      width: 250px; 
+      font-size: 30px; 
+      margin: 20px; 
+      left: 4%; 
+    }
+
+    .botones{
+    position: relative;
+    right: 6%;
+    padding-top: 15%;
+    }
+    
+    
+    .linea{
+        margin-top: 15%;
+    }
+
+    body{
+        background-image: url(fondo\ 3.png);
+        background-size: auto;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .botones button {
+        height: 220px; 
+        width: 150px; 
+        font-size: 20px;
+        margin-left: 13%;
+    }
+
+   
 }
